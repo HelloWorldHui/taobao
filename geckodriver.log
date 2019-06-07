@@ -1,0 +1,626 @@
+1559814402272	mozrunner::runner	INFO	Running command: "F:\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.Iw3ILyg4XuLt"
+1559814402738	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559814402739	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559814402739	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559814404104	Marionette	INFO	Listening on port 64299
+1559814404389	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://g.alicdn.com/vip/login/0.5.65/js/login/nlogin.js?t=20151220, line 1: TypeError: b.cfg.elUserName.focus is not a function
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1559814489440	Marionette	INFO	Stopped listening on port 64299
+[Parent 11120, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 17240, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 17240, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 7656, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 7656, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 11120, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 14100, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 15084, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1559814514657	mozrunner::runner	INFO	Running command: "F:\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.8G7wD9N02TEC"
+1559814515139	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559814515139	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559814515139	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559814516571	Marionette	INFO	Listening on port 64548
+1559814516781	Marionette	WARN	TLS certificate errors will be ignored for this session
+1559814527951	Marionette	INFO	Stopped listening on port 64548
+[Child 3844, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 7636, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 7636, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1559814534785	mozrunner::runner	INFO	Running command: "F:\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.nfFO3MYyRqmm"
+1559814535248	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559814535248	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559814535248	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559814536618	Marionette	INFO	Listening on port 64605
+1559814536902	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://g.alicdn.com/vip/login/0.5.65/js/login/nlogin.js?t=20151220, line 1: TypeError: b.cfg.elUserName.focus is not a function
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1559814597003	Marionette	INFO	Stopped listening on port 64605
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 14660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1559814615459	mozrunner::runner	INFO	Running command: "F:\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.yIcFHnPk4a3g"
+1559814615926	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559814615926	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559814615926	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559814617203	Marionette	INFO	Listening on port 64805
+1559814617575	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1559814682500	mozrunner::runner	INFO	Running command: "F:\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.Z6K6iE7C2zND"
+1559814682968	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559814682969	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559814682969	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559814684320	Marionette	INFO	Listening on port 64927
+1559814684615	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+[Parent 11468, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 5616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 5616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1559814728926	Marionette	INFO	Stopped listening on port 64927
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 4184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559814950056	mozrunner::runner	INFO	Running command: "F:\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.tQso6BWmVMLx"
+1559814950525	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559814950525	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559814950525	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559814951880	Marionette	INFO	Listening on port 65300
+1559814952176	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8144, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+JavaScript error: https://g.alicdn.com/vip/login/0.5.65/js/login/nlogin.js?t=20151220, line 1: TypeError: b.cfg.elUserName.focus is not a function
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1559814996432	Marionette	INFO	Stopped listening on port 65300
+[Parent 8144, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 16768, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 16768, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+JavaScript error: https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js, line 2: Error: t@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:6:39306
+fetch@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:6:39689
+getStrawSingle/<@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:5:11250
+s@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:2:727
+getStrawSingle@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:5:11058
+_do/<@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:5:9545
+error@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:5:10904
+_ioReady@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:1:19182
+_callback@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:1:16593
+error@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:1:16442
+w/<@https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.7/index-min.js,tb/tracker/4.3.12/index.js,kg/tb-nav/2.5.3/index-min.js,secdev/sufei_data/3.3.5/index.js:5:26613
+[18]</n.each@https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.7/index-min.js,tb/tracker/4.3.12/index.js,kg/tb-nav/2.5.3/index-min.js,secdev/sufei_data/3.3.5/index.js:5:25759
+w@https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.7/index-min.js,tb/tracker/4.3.12/index.js,kg/tb-nav/2.5.3/index-min.js,secdev/sufei_data/3.3.5/index.js:5:26579
+r/b.onerror@https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.7/index-min.js,tb/tracker/4.3.12/index.js,kg/tb-nav/2.5.3/index-min.js,secdev/sufei_data/3.3.5/index.js:5:26767
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 5764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1559903037571	mozrunner::runner	INFO	Running command: "F:\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.VRuSkALcn3XJ"
+1559903039711	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559903039711	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559903039712	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559903042318	Marionette	INFO	Listening on port 54454
+1559903042573	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://g.alicdn.com/vip/login/0.5.65/js/login/nlogin.js?t=20151220, line 1: TypeError: b.cfg.elUserName.focus is not a function
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript warning: https://a.alipayobjects.com/jquery/jquery/1.9.1/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://a.alipayobjects.com/??arale/validator/0.9.5/validator.js,arale/select/0.9.9/select.js,jquery/jquery/1.9.1/jquery.js,alipay/button-count/1.1.2/button-count.js, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[Parent 3396, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 3396, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11980, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11056, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 3396, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 4316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 4316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1559903128366	Marionette	INFO	Stopped listening on port 54454
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 7832, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559903135476	mozrunner::runner	INFO	Running command: "F:\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.jtHkBzQwCT7W"
+1559903135975	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559903135975	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559903135975	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559903137463	Marionette	INFO	Listening on port 54589
+1559903137601	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://g.alicdn.com/vip/login/0.5.65/js/login/nlogin.js?t=20151220, line 1: TypeError: b.cfg.elUserName.focus is not a function
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript warning: https://a.alipayobjects.com/jquery/jquery/1.9.1/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://a.alipayobjects.com/??arale/validator/0.9.5/validator.js,arale/select/0.9.9/select.js,jquery/jquery/1.9.1/jquery.js,alipay/button-count/1.1.2/button-count.js, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 4644, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[Parent 4644, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+[Parent 4644, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 4644, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11704, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11704, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 156, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 156, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 4644, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 9956, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1559903760907	Marionette	INFO	Stopped listening on port 54589
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 13592, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 1436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 12840, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 7556, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 6784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1559903202128	Marionette	INFO	Stopped listening on port 54730
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 7240, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559903343619	mozrunner::runner	INFO	Running command: "F:\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.3EXuv8y6tHK8"
+1559903344132	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559903344133	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559903344133	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559903345587	Marionette	INFO	Listening on port 54894
+1559903345741	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://g.alicdn.com/vip/login/0.5.65/js/login/nlogin.js?t=20151220, line 1: TypeError: b.cfg.elUserName.focus is not a function
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1559903353194	Marionette	INFO	Stopped listening on port 54894
+[Parent 16612, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 16612, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 9520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500BB,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xA70006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1559903470746	mozrunner::runner	INFO	Running command: "F:\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.z2dyTz2MO76F"
+1559903471262	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559903471262	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559903471262	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559903472761	Marionette	INFO	Listening on port 55014
+1559903472866	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://g.alicdn.com/vip/login/0.5.65/js/login/nlogin.js?t=20151220, line 1: TypeError: b.cfg.elUserName.focus is not a function
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+[Parent 6568, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 160, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1559903651327	Marionette	INFO	Stopped listening on port 55014
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 14680, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559903661981	mozrunner::runner	INFO	Running command: "F:\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.YxoEAH1EcPPB"
+1559903662488	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559903662489	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559903662489	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559903663940	Marionette	INFO	Listening on port 55176
+1559903664101	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://g.alicdn.com/vip/login/0.5.65/js/login/nlogin.js?t=20151220, line 1: TypeError: b.cfg.elUserName.focus is not a function
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1559903762813	mozrunner::runner	INFO	Running command: "F:\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.YYRH75QjQKza"
+1559903763294	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559903763294	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559903763294	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559903764788	Marionette	INFO	Listening on port 55294
+1559903764928	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://g.alicdn.com/vip/login/0.5.65/js/login/nlogin.js?t=20151220, line 1: TypeError: b.cfg.elUserName.focus is not a function
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+[Parent 12776, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1559904167069	Marionette	INFO	Stopped listening on port 55294
+[Parent 12776, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 12776, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 6416, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+JavaScript error: https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js, line 2: Error: t@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:6:39306
+fetch@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:6:39689
+getStrawSingle/<@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:5:11250
+s@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:2:727
+getStrawSingle@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:5:11058
+_do/<@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:5:9545
+error@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:5:10904
+_ioReady@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:1:19182
+_callback@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:1:16593
+error@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:1:16442
+w/<@https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.7/index-min.js,tb/tracker/4.3.12/index.js,kg/tb-nav/2.5.3/index-min.js,secdev/sufei_data/3.3.5/index.js:5:26613
+[18]</n.each@https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.7/index-min.js,tb/tracker/4.3.12/index.js,kg/tb-nav/2.5.3/index-min.js,secdev/sufei_data/3.3.5/index.js:5:25759
+w@https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.7/index-min.js,tb/tracker/4.3.12/index.js,kg/tb-nav/2.5.3/index-min.js,secdev/sufei_data/3.3.5/index.js:5:26579
+r/b.onerror@https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.7/index-min.js,tb/tracker/4.3.12/index.js,kg/tb-nav/2.5.3/index-min.js,secdev/sufei_data/3.3.5/index.js:5:26767
+
+[Child 5600, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500BB,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+[Child 5600, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500BB,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500BB,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500BB,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500BB,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x520005,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+1559904382933	mozrunner::runner	INFO	Running command: "F:\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.J7M1IJu6uIvn"
+1559904383406	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559904383407	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559904383407	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559904384861	Marionette	INFO	Listening on port 55729
+1559904385053	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://g.alicdn.com/vip/login/0.5.65/js/login/nlogin.js?t=20151220, line 1: TypeError: b.cfg.elUserName.focus is not a function
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1559904429119	mozrunner::runner	INFO	Running command: "F:\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.xbz36ttpcxmZ"
+1559904429581	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559904429582	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559904429582	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559904430943	Marionette	INFO	Listening on port 55816
+1559904431236	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://g.alicdn.com/vip/login/0.5.65/js/login/nlogin.js?t=20151220, line 1: TypeError: b.cfg.elUserName.focus is not a function
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[Parent 4196, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1559904467348	mozrunner::runner	INFO	Running command: "F:\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.GIyQRMtaJKun"
+1559904467806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559904467807	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559904467807	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559904469172	Marionette	INFO	Listening on port 55923
+1559904469466	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://g.alicdn.com/vip/login/0.5.65/js/login/nlogin.js?t=20151220, line 1: TypeError: b.cfg.elUserName.focus is not a function
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript warning: https://a.alipayobjects.com/jquery/jquery/1.9.1/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://a.alipayobjects.com/??arale/validator/0.9.5/validator.js,arale/select/0.9.9/select.js,jquery/jquery/1.9.1/jquery.js,alipay/button-count/1.1.2/button-count.js, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 2120, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[Parent 2120, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1559904543489	mozrunner::runner	INFO	Running command: "F:\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.KPIQEtvemFvc"
+1559904543958	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559904543958	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559904543958	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559904545411	Marionette	INFO	Listening on port 56074
+1559904545604	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://g.alicdn.com/vip/login/0.5.65/js/login/nlogin.js?t=20151220, line 1: TypeError: b.cfg.elUserName.focus is not a function
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+[Parent 5408, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 5408, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1559904660308	Marionette	INFO	Stopped listening on port 56074
+[Child 6424, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 11692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 8036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 8036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1559905859405	mozrunner::runner	INFO	Running command: "F:\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.r26ZesqLIG7T"
+1559905859884	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559905859884	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559905859884	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559905861352	Marionette	INFO	Listening on port 57609
+1559905861524	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://g.alicdn.com/vip/login/0.5.65/js/login/nlogin.js?t=20151220, line 1: TypeError: b.cfg.elUserName.focus is not a function
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[Parent 11376, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 11376, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1559906035399	mozrunner::runner	INFO	Running command: "F:\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.DtFAVZFMCwuU"
+1559906035881	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559906035881	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559906035881	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559906037355	Marionette	INFO	Listening on port 57908
+1559906037525	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://g.alicdn.com/vip/login/0.5.65/js/login/nlogin.js?t=20151220, line 1: TypeError: b.cfg.elUserName.focus is not a function
+[Parent 7256, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[Parent 7256, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 7256, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 13236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 10872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 10872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 7256, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 13540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 13540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1559906090915	Marionette	INFO	Stopped listening on port 57908
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 12792, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559906270589	mozrunner::runner	INFO	Running command: "F:\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.T3IU1Ojtbb6K"
+1559906271071	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559906271071	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559906271071	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559906272501	Marionette	INFO	Listening on port 58272
+1559906272714	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://g.alicdn.com/vip/login/0.5.65/js/login/nlogin.js?t=20151220, line 1: TypeError: b.cfg.elUserName.focus is not a function
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[Parent 12760, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Hand1559906378219	Marionette	INFO	Listening on port 58515
+1559906378313	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://g.alicdn.com/vip/login/0.5.65/js/login/nlogin.js?t=20151220, line 1: TypeError: b.cfg.elUserName.focus is not a function
+[Parent 11532, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 27: SyntaxError: expected expression, got '<'
+1559906398857	Marionette	INFO	Stopped listening on port 58515
+[Child 11044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 11532, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 9684, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 9684, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 11532, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 5088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1559909244277	mozrunner::runner	INFO	Running command: "F:\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.7W9DQTjKaVTL"
+1559909245713	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559909245714	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559909245714	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559909247514	Marionette	INFO	Listening on port 62360
+1559909247939	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://g.alicdn.com/vip/login/0.5.65/js/login/nlogin.js?t=20151220, line 1: TypeError: b.cfg.elUserName.focus is not a function
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[Parent 6620, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 27: SyntaxError: expected expression, got '<'
+1559909262863	Marionette	INFO	Stopped listening on port 62360
+[Parent 6620, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 6620, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 6840, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1559909284792	mozrunner::runner	INFO	Running command: "F:\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.Ko1Gc3jBpJwM"
+1559909285273	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559909285273	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559909285273	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559909286672	Marionette	INFO	Listening on port 62529
+1559909286908	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://g.alicdn.com/vip/login/0.5.65/js/login/nlogin.js?t=20151220, line 1: TypeError: b.cfg.elUserName.focus is not a function
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 27: SyntaxError: expected expression, got '<'
+1559909301515	Marionette	INFO	Stopped listening on port 62529
+[Child 14532, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 14532, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 17396, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 15060, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 2040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1559909334759	mozrunner::runner	INFO	Running command: "F:\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.rUQmjRRSxX7T"
+1559909335256	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559909335256	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559909335256	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559909336738	Marionette	INFO	Listening on port 62700
+1559909336876	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://g.alicdn.com/vip/login/0.5.65/js/login/nlogin.js?t=20151220, line 1: TypeError: b.cfg.elUserName.focus is not a function
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 27: SyntaxError: expected expression, got '<'
+1559909353303	Marionette	INFO	Stopped listening on port 62700
+[Parent 10096, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 5816, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 5816, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 17096, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 17096, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 10096, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 15084, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 15084, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 1876, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1559909667556	mozrunner::runner	INFO	Running command: "F:\\火狐\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.T1fJThVObS0M"
+1559909668054	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559909668055	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559909668055	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559909669555	Marionette	INFO	Listening on port 63200
+1559909669683	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://g.alicdn.com/vip/login/0.5.65/js/login/nlogin.js?t=20151220, line 1: TypeError: b.cfg.elUserName.focus is not a function
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 27: SyntaxError: expected expression, got '<'
+1559909857919	Marionette	INFO	Stopped listening on port 63200
+[Parent 14272, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 16012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 14272, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
