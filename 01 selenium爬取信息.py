@@ -3,6 +3,7 @@
 author=Hui_T
 """
 import time
+from setting import *
 
 from selenium import webdriver
 # 驱动器
@@ -11,6 +12,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from lxml import etree
+import pymongo
 
 # 登录淘宝
 def taobao(user,passwd):
@@ -49,7 +51,7 @@ def taobao(user,passwd):
             name_info = driver.find_element_by_css_selector(".site-nav-login-info-nick")
             print("登录成功", name_info.text)
         except Exception as e :
-            print("手动输入验证码",1)
+            print("尝试手动登录",1)
             time.sleep(3)
 
 def search(shop):
@@ -63,6 +65,11 @@ def search(shop):
     time.sleep(1)
     return driver.page_source
 
+# 连接mongoDB 返回spider库
+def Mongo_client(ip,port,username,password):
+    db = pymongo.MongoClient(host=ip,port=port,username=username,password=password)
+    return db.spider
+
 # 网站源码
 # print(driver.page_source)
 
@@ -75,10 +82,11 @@ if __name__ == '__main__':
     login_url = "https://login.taobao.com/member/login.jhtml"
     wait = WebDriverWait(driver, 20) # 显示等待 20秒元素加载
 
+    #连接MongoDB
+    spider_db = Mongo_client(Mongo_ip,Mongo_port,Mongo_user,Mongo_pwd)
+
     # 登录
     taobao(user,password)
-
-
 
     # 搜索     driver.page_source 返回网页源码
     source = search(shop)
@@ -87,15 +95,17 @@ if __name__ == '__main__':
     tree = etree.HTML(source)
     ret = tree.xpath('//*[@id="mainsrp-itemlist"]/div/div/div[1]/div')
     for element in ret:
-        price = "￥" + element.xpath('div[2]/div[1]/div[1]/strong/text()')[0]
+        price =  element.xpath('div[2]/div[1]/div[1]/strong/text()')[0]
         name = ",".join([i.strip() for i in element.xpath('div[2]/div[2]/a/text()') if i.strip() != ''])
-        sales = " "+element.xpath('div[2]/div[1]/div[2]/text()')[0]
+        sales = element.xpath('div[2]/div[1]/div[2]/text()')[0]
         print(price, name, sales)
-        with open(shop+".text","a",encoding="utf8") as f:
-            f.write(price+name+sales+"\n")
+        info = {"价格":price,"名称":name,"销售量":sales}
 
-    # with open("taobao.html","w",encoding="utf8") as f :
-    #     for i in driver.page_source:
-    #         f.write(i)
+        # 写入文件
+        # with open(shop+".text","a",encoding="utf8") as f:
+        #     f.write(price+name+sales+"\n")
+
+        # 写入spider.taobao 表中
+        spider_db.taobao.insert_one(info)
 
     driver.close()
