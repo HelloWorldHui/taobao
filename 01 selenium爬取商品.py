@@ -79,7 +79,7 @@ def write_mongo(tree):
                 name = ",".join([i.strip() for i in element.xpath('div[2]/div[2]/a/text()') if i.strip() != ''])
                 sales = element.xpath('div[2]/div[1]/div[2]/text()')[0]
                 sales = sales.split("人")[0]
-                print(price, name, sales)
+                # print(price, name, sales)
                 info = {"价格": price, "名称": name, "销售量": sales}
 
                 # 写入spider.taobao 表中
@@ -113,8 +113,9 @@ if __name__ == '__main__':
     # 网站源码(第一页)
     tree = etree.HTML(source)
 
-    # 写入 (第一页数据)
+    # 筛选和写入 (第一页数据)
     write_mongo(tree)
+
     time.sleep(3)
     for i in [2,3,4,5,6,7,8,9,10]:
         driver.execute_script('window.scrollTo(0, document.body.scrollHeight)')
