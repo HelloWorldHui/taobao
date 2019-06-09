@@ -17,10 +17,7 @@ import pymongo
 # 登录淘宝
 def taobao(user,passwd):
 
-    # 查找元素 等待十秒
-    # driver.implicitly_wait(10)
     # 打开网页 点击 账号密码登录
-    driver.get(login_url)
     login_button = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR,'.J_Quick2Static')))
     # login_button = driver.find_element_by_css_selector(".J_Quick2Static")
     login_button.click()
@@ -70,6 +67,25 @@ def Mongo_client(ip,port,username,password):
     db = pymongo.MongoClient(host=ip,port=port,username=username,password=password)
     return db.spider
 
+def write_mongo(tree):
+    # 商品 div
+    ret = tree.xpath('//*[@id="mainsrp-itemlist"]/div/div/div[1]/div')
+    if not ret:
+        print("商品数为0")
+    else:
+        for element in ret:
+            try:
+                price =  element.xpath('div[2]/div[1]/div[1]/strong/text()')[0]
+                name = ",".join([i.strip() for i in element.xpath('div[2]/div[2]/a/text()') if i.strip() != ''])
+                sales = element.xpath('div[2]/div[1]/div[2]/text()')[0]
+                sales = sales.split("人")[0]
+                print(price, name, sales)
+                info = {"价格": price, "名称": name, "销售量": sales}
+
+                # 写入spider.taobao 表中
+                spider_db.taobao.insert_one(info)
+            except Exception as e :
+                print("写入商品出错+1")
 # 网站源码
 # print(driver.page_source)
 
@@ -81,6 +97,9 @@ if __name__ == '__main__':
     driver = webdriver.Firefox(executable_path="F:/火狐/geckodriver")
     login_url = "https://login.taobao.com/member/login.jhtml"
     wait = WebDriverWait(driver, 20) # 显示等待 20秒元素加载
+    # 查找元素 等待十秒 隐式等待(所有的都要等待)
+    driver.implicitly_wait(10)
+    driver.get(login_url)
 
     #连接MongoDB
     spider_db = Mongo_client(Mongo_ip,Mongo_port,Mongo_user,Mongo_pwd)
@@ -91,21 +110,23 @@ if __name__ == '__main__':
     # 搜索     driver.page_source 返回网页源码
     source = search(shop)
 
-    # 写入
+    # 网站源码(第一页)
     tree = etree.HTML(source)
-    ret = tree.xpath('//*[@id="mainsrp-itemlist"]/div/div/div[1]/div')
-    for element in ret:
-        price =  element.xpath('div[2]/div[1]/div[1]/strong/text()')[0]
-        name = ",".join([i.strip() for i in element.xpath('div[2]/div[2]/a/text()') if i.strip() != ''])
-        sales = element.xpath('div[2]/div[1]/div[2]/text()')[0]
-        print(price, name, sales)
-        info = {"价格":price,"名称":name,"销售量":sales}
 
-        # 写入文件
-        # with open(shop+".text","a",encoding="utf8") as f:
-        #     f.write(price+name+sales+"\n")
-
-        # 写入spider.taobao 表中
-        spider_db.taobao.insert_one(info)
+    # 写入 (第一页数据)
+    write_mongo(tree)
+    time.sleep(3)
+    for i in [2,3,4,5,6,7,8,9,10]:
+        driver.execute_script('window.scrollTo(0, document.body.scrollHeight)')
+        time.sleep(1)
+        page_input = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#mainsrp-pager > div > div > div > div.form > input")))
+        page_input.clear()  # 坑 每次输入记得先清空原数据
+        page_input.send_keys(i)
+        time.sleep(1)
+        submit_button = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#mainsrp-pager > div > div > div > div.form > span.btn.J_Submit")))
+        submit_button.click()
+        tree = etree.HTML(driver.page_source)
+        write_mongo(tree)
+        time.sleep(5)
 
     driver.close()
