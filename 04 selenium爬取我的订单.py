@@ -2,6 +2,7 @@
 """
 author=Hui_T
 """
+import json
 import time
 from setting import *
 
@@ -74,21 +75,24 @@ def filter_write_mongodb(tree):
     if not order_div :
         print("没有订单信息")
     else:
-        for  ele in order_div:
-            try:
-                date = ele.xpath(".//div/table/tbody[1]/tr/td[1]/label/span[2]/text()")[0]
-                order = ele.xpath('.//div/table/tbody[1]/tr/td[1]/span/span[3]/text()')[0]
-                name = ele.xpath('.//div/table/tbody[2]/tr[1]/td[1]/div/div[2]/p[1]/a[1]/span[2]/text()')[0]
-                shop_title = ele.xpath('.// div / table / tbody[1] / tr / td[2] / span / a /text()')
-                shop_title = shop_title[0] if shop_title  else "空"# 特殊处理
-                account = ele.xpath('.// div / table / tbody[2] / tr / td[5] / div / div[1] / p / strong / span[2]/text()')[0]
-                status =  ele.xpath('.// div / table / tbody[2]/ tr / td[6] / div / p / span / text()')[0]
-                info = {"订单号":order,"日期":date,"店铺名称":shop_title,"商品名称":name,"付款金额":account,"订单状态":status}
-                # print(info)
-                # 写入spider.myorder 表中
-                spider_db.myorder.insert_one(info)
-            except Exception as e :
-                print("写入数据错误",1)
+        with open('./data/data.csv','w',encoding='utf8') as f :
+            for  ele in order_div:
+                try:
+                    date = ele.xpath(".//div/table/tbody[1]/tr/td[1]/label/span[2]/text()")[0]
+                    order = ele.xpath('.//div/table/tbody[1]/tr/td[1]/span/span[3]/text()')[0]
+                    name = ele.xpath('.//div/table/tbody[2]/tr[1]/td[1]/div/div[2]/p[1]/a[1]/span[2]/text()')[0]
+                    shop_title = ele.xpath('.// div / table / tbody[1] / tr / td[2] / span / a /text()')
+                    shop_title = shop_title[0] if shop_title  else "空"# 特殊处理
+                    account = ele.xpath('.// div / table / tbody[2] / tr / td[5] / div / div[1] / p / strong / span[2]/text()')[0]
+                    status =  ele.xpath('.// div / table / tbody[2]/ tr / td[6] / div / p / span / text()')[0]
+                    info = {"订单号":order,"日期":date,"店铺名称":shop_title,"商品名称":name,"付款金额":account,"订单状态":status}
+                    # print(info)
+                    f.write(json.dumps(info,ensure_ascii=False))
+                    f.write('\n')
+                    # 写入spider.myorder 表中
+                    spider_db.myorder.insert_one(info)
+                except Exception as e :
+                    print("写入数据错误",1)
 
 if __name__ == '__main__':
     user = input("输入会员名/微博/手机号:")
